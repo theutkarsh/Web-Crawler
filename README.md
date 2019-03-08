@@ -6,11 +6,11 @@ Web crawler to scrap website such as Olx and Wikipedia. Monitoring competitorsâ€
 ### Prerequisites
 To use the Python-powered Scrapy application framework, you need to ensure that you have the following services, packages, and software loaded on your computer or server.
 
-*Python 2.7 or greater version
-*The pip package manager
-*Python setuptools
-*The lxml Python Library
-*The OpenSSL Library
+* Python 2.7 or greater version
+* The pip package manager
+* Python setuptools
+* The lxml Python Library
+* The OpenSSL Library
 
 Youâ€™ll find a copy of the pip package manager at https://bootstrap.pypa.io/get-pip.py.
 
@@ -25,6 +25,12 @@ sudo pip install Scrapy
 Windows requires a couple of extra steps, which are outlined on the Scrapy website at http://doc.scrapy.org/en/1.0/intro/install.html.
 
 ## Running the tests
+For scrapping mobile phones, tablets and accessories prices from Olx website, run- 
 ```
 scrapy crawl mobiles -o results.csv
 ```
+For scrapping from Wikipedia website, run- 
+```
+scrapy crawl wi -o results.csv
+```
+
